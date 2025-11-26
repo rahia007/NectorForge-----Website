@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NectarForge </title>
+    <!-- linking css file with html -->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="honeycomb.css">
+
+</head>
+
+<body>
+
+    <div class="honey-drip">
+    <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+        <path d="M0 0 
+                 L1440 0 
+                 L1440 40 
+                 Q1380 70 1320 40
+                 Q1260 10 1200 40
+                 Q1140 80 1080 40
+                 Q1020 0 960 40
+                 Q900 90 840 40
+                 Q780 10 720 40
+                 Q660 70 600 40
+                 Q540 0 480 40
+                 Q420 90 360 40
+                 Q300 0 240 40
+                 Q180 80 120 40
+                 Q60 0 0 40
+                 Z"
+              />
+    </svg>
+
+</div>
+    <header>
+        <a href="#" class="logo">NectarForge</a>
+    
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+             <a href="page2.html">Gallery</a> 
+            <a href="#contact">Contact</a>
+        </nav> 
+    </header> 
+    <!-- to add 3d bee -->
+     <model-viewer src="flying_bee_3d.glb" id="bee-model"  camera-orbit="90deg 90deg" autoplay ></model-viewer>
+
+
+    <section class="home">
+        <h1>HONEY BEE</h1>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h2 id="aboutbees"> About Bees</h2>
+            <p>Bees are gentle, hardworking guardians of nature, fluttering between flowers with bright energy. They collect nectar, craft golden honey, and pollinate countless plants. Their buzzing dance sustains ecosystems, supports food chains, and keeps our world colorful, fertile, and beautifully alive. Without bees, countless flowers would fade, harvests would shrink, and nature’s balance would tremble. Their tiny wings carry the weight of the world blooming beauty.</p>
+           <a href="page3(yaseen).html" class="view_more_btn">View More</a>
+
+
+
+
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-content">
+            <!-- these classes made to later css its box frame -->
+            <div class="outer">
+                <div class="inner">
+                    <img src="bee1.png">
+                </div>
+            </div>
+            <div class="outer">
+                <div class="inner"></div>
+            </div>
+            <div class="outer">
+                <div class="inner">
+                    <img src="bee3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <form class="contact-form">
+            <h2>Save the bees</h2>
+            <h3  >Contact us to safely remove the beehive</h3>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    linking js file with html
+     <script src="script.js"></script>
+    <!-- //adding ref for 3d module-->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+</body>
+
+</html>
