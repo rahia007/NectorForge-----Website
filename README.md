@@ -24,4 +24,3 @@ This website aims to:
 - **Enhance front-end development skills** by integrating 3D animations and interactive elements.
 
 
-   git clone https://github.com/yourusername/Nectorforge.git
