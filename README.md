@@ -25,7 +25,7 @@ This website aims to:
 
 ## 🚀 **Website Demo Video**
 
-[![Watch the video](https://github.com/rahia007/NectorForge-----Website/raw/main/thumbnail.jpg)](https://github.com/rahia007/NectorForge-----Website/raw/main/WebsiteVideo.webm)
+[![NectorForge](https://github.com/rahia007/NectorForge-----Website/raw/main/thumbnail.jpg)](https://github.com/rahia007/NectorForge-----Website/raw/main/WebsiteVideo.webm)
 
 
 
